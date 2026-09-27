@@ -65,7 +65,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 39 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
-- [Agent Decisions](categories/agent-decisions.md) — 53 entries
+- [Agent Decisions](categories/agent-decisions.md) — 54 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 39 entries
@@ -111,6 +111,7 @@ Optional tags on an entry name the coding agent it targets and the kind of integ
 - **Codex** (6) — [Codex Jev Router](https://github.com/suenot/codex-jev-router) · [Jev Auto Router](https://github.com/miniLV/Jev-Auto-Router) · [Foreman](https://github.com/thruwire/foreman) · [fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction) · [jev-desktop](https://github.com/yikangy873-gif/jev-desktop) · [jev-browser-use](https://github.com/wy-coliney/jev-browser-use)
 - **DeepSeek Harness** (3) — [dsh-jev-interceptor](https://github.com/AskTheWay/dsh-jev-interceptor) · [dsh-auto-mode](https://git.allen-software.com/allenh1/dsh-auto-mode) · [dsh-jev-decide](https://github.com/nanami-0713/dsh-jev-decide)
 - **Cline** (1) — [Cline plugins](https://github.com/cline/plugins)
+- **OpenCode** (1) — [opencode-jev-compaction](https://github.com/radqnico/opencode-jev-compaction)
 
 ## Full list
 
@@ -323,6 +324,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [Eliza](https://github.com/elizaOS/eliza) ![stars](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&label=%E2%98%85) - Autonomous agents: multi-agent framework integrating TypeSafe System One decision services for sub-100ms intent classification, action dispatching, and confidence-gated tool execution.
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&label=%E2%98%85) - Coding agents: multi-agent team orchestration for Claude Code featuring opt-in Jev hooks for sub-millisecond judgment points, decision caching, and per-point egress controls.
 - [jcode](https://github.com/1jehuang/jcode) ![stars](https://img.shields.io/github/stars/1jehuang/jcode?style=flat-square&label=%E2%98%85) - Agent runtimes: RAM-efficient autonomous agent harness implemented in Rust with native TypeSafe Jev typed decision transport for memory pruning, browser navigation, and voice interaction routing.
+- [opencode-jev-compaction](https://github.com/radqnico/opencode-jev-compaction) ![agent: OpenCode](https://img.shields.io/badge/agent-OpenCode-0E7490?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/radqnico/opencode-jev-compaction?style=flat-square&label=%E2%98%85) - Context management: OpenCode plugin that replaces the compaction summary with Jev `Noul` judgments on whether each tool call and its output are still needed, pruning stale calls while keeping everything kept verbatim and declining to the built-in summary when pruning cannot free enough room.
 
 ### Data Labeling & Curation
 

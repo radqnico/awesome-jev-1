@@ -2,7 +2,7 @@
   "$comment": "Single source for the entry tag vocabulary (issue #138). Read by scripts/build-readme.py, which also regenerates the vocabulary table in CONTRIBUTING.md between its tags markers. Add a value here, nowhere else.",
   "axes": {
     "agent": {
-      "$comment": "`opencode` was here until 2026-09-22. It entered the vocabulary from a misread: a scan took \"OpenCode Zen's free tier\" in the jev-agent-skill description for the OpenCode coding agent, but that is the LLM gateway the project routes through. That entry has always been tagged claude-code, and no entry ever used an opencode tag. Add it back when a real OpenCode project appears (see issue #154).",
+      "$comment": "`opencode` was removed on 2026-09-22 after a misread (a scan took \"OpenCode Zen's free tier\" in the jev-agent-skill description for the OpenCode coding agent, but that is an LLM gateway). Restored when the first real OpenCode project, opencode-jev-compaction, was listed (see issue #154).",
       "description": "The coding agent an entry targets. Colours are anchored on the vendor's brand colour where there is one, then darkened until white badge text clears WCAG AA; the raw brand colours do not (Anthropic clay #D97757 carries white text at 2.9:1).",
       "values": {
         "multi": {
@@ -42,6 +42,11 @@
           "color": "2D5BD7",
           "anchor": "DeepSeek blue #4D6BFE",
           "definition": "Targets DeepSeek Harness (dsh). Not DeepSeek models in general, which many entries call without targeting its harness."
+        },
+        "opencode": {
+          "label": "OpenCode",
+          "color": "0E7490",
+          "definition": "Targets the OpenCode coding agent."
         }
       }
     },
